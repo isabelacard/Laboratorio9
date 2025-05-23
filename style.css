@@ -1,0 +1,72 @@
+body {
+    background-color: #0a0f2c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #e0f2ff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #16234b;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 51, 102, 0.6);
+    padding: 30px;
+}
+
+.cabecera {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #2f6cc8;
+    padding-bottom: 20px;
+}
+
+.contenedor_foto_perfil img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #3a8fff;
+    box-shadow: 0 0 15px rgba(58, 143, 255, 0.5);
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.nombre_puesto h1 {
+    font-size: 2.5em;
+    color: #3a8fff;
+    margin: 0;
+}
+
+.nombre_puesto h2 {
+    font-size: 1.2em;
+    color: #a3c9ff;
+    margin: 5px 0 0;
+}
+
+.datos-personales {
+    background-color: #1c2d5a;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.datos-personales p {
+    margin: 10px 0;
+    line-height: 1.6em;
+}
+
+.datos-personales strong {
+    color: #74b9ff;
+}
+
+.datos-personales a {
+    color: #4dabf7;
+    text-decoration: none;
+}
+
+.datos-personales a:hover {
+    text-decoration: underline;
+}
