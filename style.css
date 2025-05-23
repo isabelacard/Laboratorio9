@@ -70,3 +70,49 @@ body {
 .datos-personales a:hover {
     text-decoration: underline;
 }
+
+.experiencia {
+    margin-top: 40px;
+    background-color: #1b2c57;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(42, 94, 174, 0.3);
+}
+
+.experiencia h3 {
+    color: #3a8fff;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.experiencia hr {
+    border: none;
+    height: 2px;
+    background-color: #2f6cc8;
+    margin-bottom: 20px;
+}
+
+.experiencia h4 {
+    color: #a3c9ff;
+    margin: 15px 0 5px;
+    font-size: 1.3em;
+}
+
+.nombre_empresa {
+    font-weight: bold;
+    color: #74b9ff;
+    margin-bottom: 2px;
+}
+
+.año_puesto {
+    font-size: 0.9em;
+    color: #adcfff;
+    margin-bottom: 8px;
+}
+
+.descripcion_puesto {
+    font-size: 1em;
+    line-height: 1.6em;
+    color: #d0e5ff;
+    margin-bottom: 20px;
+}
