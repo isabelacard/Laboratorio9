@@ -116,3 +116,40 @@ body {
     color: #d0e5ff;
     margin-bottom: 20px;
 }
+
+.formacion-academica {
+    margin-top: 40px;
+    background-color: #1b2c57;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(42, 94, 174, 0.3);
+}
+
+.formacion-academica h3 {
+    color: #3a8fff;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.estudio {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #2f6cc8;
+}
+
+.estudio h4 {
+    color: #a3c9ff;
+    font-size: 1.3em;
+    margin-bottom: 5px;
+}
+
+.estudio p {
+    font-size: 1em;
+    line-height: 1.6em;
+    color: #d0e5ff;
+    margin: 5px 0;
+}
+
+.estudio strong {
+    color: #74b9ff;
+}
