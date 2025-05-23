@@ -153,3 +153,79 @@ body {
 .estudio strong {
     color: #74b9ff;
 }
+
+.Habilidades {
+    background-color: #1b2c57;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(42, 94, 174, 0.3);
+    margin-top: 40px;
+    text-align: center;
+}
+
+.Habilidades h3 {
+    color: #3a8fff;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.Habilidades hr {
+    border: none;
+    height: 2px;
+    background-color: #2f6cc8;
+    margin: 10px 0 20px;
+}
+
+.grafico {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #0a0f2c;
+    box-shadow: 0 0 10px rgba(58, 143, 255, 0.4);
+}
+
+.donut-hole {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    background-color: #0a0f2c;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.sector {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    clip: rect(0, 120px, 120px, 60px);
+}
+
+#sector1 {
+    background-color: #3a8fff;
+    transform: rotate(0deg);
+    z-index: 1;
+}
+
+#sector2 {
+    background-color: #4dabf7;
+    transform: rotate(60deg);
+    z-index: 1;
+}
+
+#sector3 {
+    background-color: #74b9ff;
+    transform: rotate(120deg);
+    z-index: 1;
+}
+
+.habilidad {
+    font-size: 1.1em;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: #d0e5ff;
+}
